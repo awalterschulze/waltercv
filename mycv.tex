@@ -1,0 +1,189 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\begin{document}
+
+\header{walter}{schulze}{programmer} % Your name and current job title/field
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Stellenbosch
+South Africa
+~
+awalterschulze at gmail
+\href{http://awalterschulze.github.io}{awalterschulze.github.io}
+\href{https://za.linkedin.com/in/schulzewalter}{linkedin profile}
+\section{languages}
+bilingual in afrikaans and english
+\section{programming}
+{\color{red} $\varheartsuit$} 
+Expert: 
+Go
+~
+Pretty Good: 
+Latex, Git
+~
+\href{https://trello.com/b/ij35amXZ/mylearninghaskell}{Learning: Haskell}
+~
+Hacking:
+Javascript, Bootstrap, Docker, Bash
+~
+Past:
+Python, Java, C, Matlab, XSLT
+\end{aside}
+
+\section{employment}
+
+\begin{entrylist}
+
+\entry
+{2011 -- Now}
+{Vastech}
+{Stellenbosch, South Africa}
+{\emph{Programmer} \\
+Since 2011 I have been working at Vastech, a company that develops and sells hardware and software that is used for massive passive surveilance of communication networks. I have been part of a team that is developing a distributed database from scratch. This database was focused on fast writing of time series data.  We developed this all in Go. \\
+Amongst other things I have: \\
+\begin{itemize}
+\item Designed and developed the query language and matching for the database.
+\item Refactored and redesigned the metadata serialization scheme.
+\item Coordinated a design with the team and developed the updating of metadata in the write fast distributed database.
+\item Developed and lead the intern program. This consisted of more than 20 unique interns over a period of 2 years and a maximum of 12 at one time.
+\end{itemize}
+}
+
+\entry
+{2010--2011}
+{\href{https://www.entersekt.com/}{Entersekt}}
+{Stellenbosch, South Africa}
+{\emph{Junior Developer} \\
+Developing a Java and J2ME code generator in Python while assisting on various other projects involving PHP, SQL, XML-RPC and Network Security.}
+
+\entry
+{before 2010}
+{more}
+{South Africa}
+{\emph{Part Time Consultant, Teaching Assistant and Intern} \\
+\href{https://za.linkedin.com/in/schulzewalter}{Please see my LinkedIn Profile}
+}
+
+\end{entrylist}
+
+\section{education}
+
+\begin{entrylist}
+
+\entry
+{2007--2009}
+{Masters {\normalfont of Computer Science} (cum laude)}
+{Stellenbosch University}
+{\href{http://superwillow.sourceforge.net/}{\emph{A Formal Language Theory Approach to Music Generation}} \\ We investigate the suitability of applying some of the probabilistic and automata theoretic ideas, that have been extremely successful in the areas of speech and natural language processing, to the area of musical style imitation. By using music written in a certain style as training data, parameters are calculated for (visible and hidden) Markov models (of mixed, higher or first order), in order to capture the musical style of the training data in terms of mathematical models. These models are then used to imitate two instrument music in the trained style.}
+
+
+
+\entry
+{2006}
+{Honours {\normalfont of Computer Science}}
+{Stellenbosch University}
+{Year project (passed with distinction): A bridge type card game which is played on mobile phones against each other. This included the implementation of a J2ME Client, Java Server, Database and Artificial Intelligent Players.
+Included courses on: Advanced Algorithms and Data Structures, Pattern Recognition, Artificial Intelligence, Simulation, Applied Automata Theory, Embedded Systems Programming and Concurrent Programming.}
+
+\end{entrylist}
+
+\begin{entrylist}
+
+\entry
+{2003--2005}
+{Bachelors {\normalfont of Computer Science}}
+{Stellenbosch University}
+{Included courses on: Operating Systems, Low Level, Cryptography, Networks, Coding Theory, System Design, Algorithms and Data Structures, Databases and Formal Language Theory.}
+
+\end{entrylist}
+
+\section{publications}
+
+\begin{entrylist}
+
+\entry
+{2010}
+{\href{http://doi.ieeecomputersociety.org/10.1109/MMUL.2010.44}{Music Generation With Mixed and Higher Order Hidden Markov Models\\
+-- Walter Schulze and Brink van der Merwe}}
+{IEEE Multimedia}
+{We investigate the suitability of applying some of the probabilistic and automata theoretic ideas that have been successful in the areas of speech and natural language processing, to the area of musical style imitation. By using music written in a certain style as training data, parameters are calculated for Markov chains and hidden Markov models (of mixed, higher or ﬁrst order), in order to capture the musical style of the training data in terms of mathematical models.
+These models are then used to imitate two instrument music in the style of a given composer.}
+
+\end{entrylist}
+
+\section{awards}
+
+\begin{entrylist}
+
+\entry
+{2013}
+{Developed and Lead Intern Program}
+{Vastech}
+{We started with about 2 interns per year. I developed and lead the intern program up to the point where we now take up to 17 interns per year.  I was given one of the three awards Vastech gives out every year.}
+
+\end{entrylist}
+
+\section{open source projects}
+
+\begin{entrylist}
+
+\entry
+{2015}
+{\href{https://github.com/katydid/katydid}{Katydid}}
+{Go, Serialization Formats, PhD}
+{Validation Language for Trees}
+
+\entry
+{2013}
+{\href{https://github.com/gogo/protobuf}{gogoprotobuf}}
+{Go, Protocol Buffers, 200+ Stars}
+{Protocol Buffers for Go with Gadgets}
+
+\entry
+{2015}
+{\href{https://github.com/gogo/letmegrpc}{LetMeGRPC}}
+{Go, Javascript, Protocol Buffers, GRPC}
+{Generates a web form GUI from a GRPC specification}
+
+\entry
+{2012}
+{\href{https://github.com/awalterschulze/gographviz}{GoGraphviz}}
+{Go, Graphviz, Parser Generator}
+{Go Parser for Graphviz's Dot Format}
+
+\entry
+{2015}
+{\href{https://github.com/awalterschulze/git-anchor}{git-anchor}}
+{Git, Go, Bash}
+{Anchors the versions of your git dependencies}
+
+\end{entrylist}
+
+\section{interests}
+
+\textbf{professional:} Formal Languages, Automata, Programming Language Design, Computational Neuroscience \\
+\textbf{personal:} Guitar, Music Production, Music Technology
+
+\end{document}

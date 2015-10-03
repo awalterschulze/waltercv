@@ -1,0 +1,2 @@
+build:
+	xelatex mycv.tex
