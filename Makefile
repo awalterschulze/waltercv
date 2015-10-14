@@ -1,2 +1,2 @@
 build:
-	xelatex mycv.tex
+	xelatex waltercv.tex
