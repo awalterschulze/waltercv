@@ -1,6 +1,6 @@
-#My CV
+#Walter Schulze's CV
 
-This is [My CV](https://raw.githubusercontent.com/awalterschulze/mycv/master/mycv.pdf)
+This is [My CV](https://raw.githubusercontent.com/awalterschulze/waltercv/master/waltercv.pdf)
 
 Also included in this repository are my degrees and certificates.
 
