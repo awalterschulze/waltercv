@@ -293,7 +293,9 @@
     {}%
 }
 
-\defbibheading{bibheading}[\bibname]{%   \subsubsection*{#1}   \markboth{#1}{#1}
+\defbibheading{bibheading}[\bibname]{%
+   \subsubsection*{#1}
+   \markboth{#1}{#1}
 }
 
 \newcommand{\printbibsection}[2]{
@@ -317,11 +319,13 @@
 \RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \hypersetup{
-    colorlinks=false,       
+    colorlinks=true,       
     linkcolor=red,          
     citecolor=red,        
     filecolor=red,      
-    urlcolor = red}
+    urlcolor=red}
+    
+\newcommand{\changeurlcolor}[1]{\hypersetup{urlcolor=#1}}
     
 % A fix for \href{}{} colors not working with fontspec
 \makeatletter
