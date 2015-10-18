@@ -11,7 +11,7 @@ Also included in this repository are my degrees and certificates.
 
 ##Degrees
 
-2010 - [MSc Computer Science (cum laude)](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2006-msc-degree.pdf)
+2010 - [MSc Computer Science (cum laude)](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2010-msc-degree.pdf)
 
 2006 - [BSc Honours in Computer Science](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2006-hons-degree.pdf)
 
