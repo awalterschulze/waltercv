@@ -21,7 +21,7 @@ Also included in this repository are my degrees and certificates.
 
 2016 - [Leadership for Engineers](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2016-01-LeadershipForEngineers-Edx-Certificate.pdf)
 
-2015 - [Questionare Design for Social Surveys](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2015-12-QuestionnaireDesignforSocialSurveys.pdf)
+2015 - [Questionnare Design for Social Surveys](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2015-12-QuestionnaireDesignforSocialSurveys.pdf)
 
 2014 - [Introduction to Functional Programming](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2014-IntroductionToFunctionalProgramming-Edx-Certificate.pdf)
 
