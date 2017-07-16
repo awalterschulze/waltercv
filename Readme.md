@@ -1,4 +1,4 @@
-#Walter Schulze's CV
+# Walter Schulze's CV
 
 This is my [CV](https://raw.githubusercontent.com/awalterschulze/waltercv/master/waltercv.pdf)
 
@@ -9,7 +9,7 @@ https://awalterschulze.github.io
 
 Also included in this repository are my degrees and certificates.
 
-##Degrees
+## Degrees
 
 2010 - [MSc Computer Science (cum laude)](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2010-msc-degree.pdf)
 
@@ -17,7 +17,7 @@ Also included in this repository are my degrees and certificates.
 
 2005 - [BSc Computer Science and Applied Mathematics](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2005-bsc-degree.pdf)
 
-##Certificates
+## Certificates
 
 2016 - [Leadership for Engineers](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2016-01-LeadershipForEngineers-Edx-Certificate.pdf)
 
