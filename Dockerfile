@@ -1,17 +1,15 @@
-FROM debian:jessie
+FROM ubuntu:xenial
 
-RUN apt-get update \
-	&& apt-get install -y \
-    texlive-full \
-    biber \
-    latexmk \
+RUN apt-get update
+RUN apt-get install -y \
     make \
     gnuplot \
     wget \
     python-pygments
-
-ADD ./HelveticaNeue.dfont /usr/local/share/fonts/HelveticaNeue.dfont
-RUN fc-cache -f -v
+RUN apt-get install -y \
+    texlive-full \
+    biber \
+    latexmk
 
 WORKDIR /data
 VOLUME ["/data"]
