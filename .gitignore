@@ -5,3 +5,4 @@
 *.run.xml
 *.bcf
 HelveticaNeue.dfont
+.DS_Store
