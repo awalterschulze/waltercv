@@ -2,8 +2,6 @@
 
 This is my [CV](https://raw.githubusercontent.com/awalterschulze/waltercv/master/waltercv.pdf)
 
-Here is printable (black and white) version of my [CV](https://raw.githubusercontent.com/awalterschulze/waltercv/master/waltercv-print.pdf)
-
 My open source profile can be viewed at
 https://awalterschulze.github.io
 
@@ -43,4 +41,10 @@ Also included in this repository are my degrees and certificates.
 
 2011 - [Artifical Intelligence](https://raw.githubusercontent.com/awalterschulze/waltercv/master/2011-12-www.ai-class.com-letter067293_signed.pdf)
 
+## LICENSE
 
+This CV is depends on [friggeri-cv-a4.cls](https://github.com/depressiveRobot/friggeri-cv-a4), which has it's own [LICENSE](./friggeri-cv-a4-LICENSE), which also covers all the included fonts: `.ttf` and `.otf` files.
+
+## Build
+
+This CV was compiled using [overleaf](https://www.overleaf.com/)
