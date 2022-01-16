@@ -5,6 +5,19 @@ This is my [CV](https://raw.githubusercontent.com/awalterschulze/waltercv/master
 My open source profile can be viewed at
 https://awalterschulze.github.io
 
+I have lots of experience with computers:
+- sending emails
+- receiving emails
+- deleting emails
+I could go on:
+- the web
+- clicking
+- double clicking
+
+<a href="https://www.youtube.com/watch?v=NuPolrd9yuo" target="_blank">
+ <img src="https://img.youtube.com/vi/NuPolrd9yuo/0.jpg" alt="Watch the video" width="480" border="10" />
+</a>
+
 Also included in this repository are my degrees and certificates.
 
 ## Degrees
