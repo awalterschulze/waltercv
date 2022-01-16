@@ -23,27 +23,35 @@
 
 \begin{document}
 
-\header{walter}{schulze}{} % Your name and current job title/field
+\header{walter}{schulze}{%
+\href{mailto:awalterschulze@gmail.com}{awalterschulze@gmail.com}%
+\ |\ %
+\href{https://awalterschulze.github.io}{github.com/awalterschulze}%
+\ |\ %
+\href{https://www.linkedin.com/in/schulzewalter/}{linkedin.com/in/schulzewalter/}%
+} % Your name and current job title/field
 
 \begin{aside} % In the aside, each new line forces a line break
-\section{contact}
-London
-UK
-~
-awalterschulze at gmail
-\href{https://awalterschulze.github.io}{awalterschulze.github.io}
-\href{https://za.linkedin.com/in/schulzewalter}{linkedIn profile}
-\section{languages}
-bilingual in Afrikaans and English
+\section{location}
+London, UK
 \section{programming}
-Expert: 
-Elm, Golang, Protocol Buffers
-~
 Proficient: 
-Haskell, Git, BNF, Latex, Docker
+\href{https://coq.inria.fr/}{Coq}, Golang, Haskell, Elm, Erlang, Git, Latex
 ~
 Forgotten:
-Python, Java, Matlab, XSLT, PHP, SQL, C, Assembler, Delphi, Turbo Pascal
+Rust, React, Python, Java, Matlab, XSLT, PHP, SQL, C, Assembler, Delphi, Turbo Pascal, Docker, Filebeat, Cassandra, Kafka, Consul, Nomad, Grafana, Kibana and Jenkins.
+\section{open source}
+\href{https://github.com/katydid/katydid}{Katydid}: Validation Language for Deeply Nested Structures
+~
+\href{https://github.com/awalterschulze/goderive}{Goderive}: Derives/Generates mundane golang functions.
+~
+\href{https://github.com/awalterschulze/gographviz}{GoGraphviz}: Go Parser for Graphviz's Dot Format
+~
+\href{https://github.com/gogo/protobuf}{gogoprotobuf}: Protocol Buffers for Go with Gadgets
+\section{publications}
+\href{http://doi.ieeecomputersociety.org/10.1109/MMUL.2010.44}{Music Generation with Mixed and Higher Order Hidden Markov Models}:
+{IEEE Multimedia}
+{Walter Schulze and Prof. Brink van der Merwe}
 \end{aside}
 
 \section{employment}
@@ -62,14 +70,7 @@ Starting
 {eBay Classifieds Group}
 {Amsterdam, The Netherlands}
 {\emph{Elm and Go Developer} \\
-Since August 2016, I was in the Global Systems Team that develops services for classified sites around the world.
-\begin{itemize}
-\item Single handedly took over maintenance and development of treeBay, a translating reverse proxy that shows eBay ads on classifieds sites.
-      Tools used: Elm, Go, Docker, Filebeat, Cassandra, Kafka, Consul, Nomad, Grafana, Kibana and Jenkins.
-\item Replaced an Nginx proxy, handling 2000 requests per second, with a new Go proxy for flexibility and simplicity.
-\item Added an A/B testing framework, role based login using LDAP and a new Frontend using Elm.
-\item Interviewed over 50 candidates, provided support for five local markets and served on the global Architecture team.
-\end{itemize}
+Created a translating reverse proxy that shows eBay ads on classifieds sites, serving 2000 requests per second. Added an A/B testing framework, role based login using LDAP and a new Frontend using Elm. Interviewed over 50 candidates, provided support for five local markets and served on the global Architecture team.
 }
 
 \entry
@@ -77,39 +78,16 @@ Since August 2016, I was in the Global Systems Team that develops services for c
 {Vastech}
 {Stellenbosch, South Africa}
 {\emph{Query Language Developer for Distributed Database} \\
-Vastech is a company that develops and sells hardware and software that is used for massive passive surveillance of communication networks. \\
-I was part of a team that developed a distributed database from scratch. \\
-This database was focused on fast writing of time series data.  We developed this all in Go. \\
-Amongst other things I have: \\
-\begin{itemize}
-\item Designed and developed the query language and matching algorithm.
-\item Refactored and redesigned the metadata serialization scheme.
-\item Initiated and developed the company's open source policy.
-\item Redesigned our schema and index configuration from a compile time to run time configurable dependency.
-\item Coordinated a design with the team and developed the update mechanism for metadata in the write only distributed database.
-\item Developed and lead the intern program. This consisted of more than 20 unique interns over a period of 2 years and a maximum of 12 at one time.
-\end{itemize}
+I was part of a team that developed a distributed database from scratch in Go, for fast writing of time series data. I was responsible for the \href{https://github.com/katydid/katydid}{query language} and matching algorithm, metadata serialization, index configuration and update method for our write only database. I also initiated the company's open source policy and created and lead the intern program.
 }
 
 \entry
-{2010 -- 2011}
-{\href{https://www.entersekt.com/}{Entersekt}}
-{Stellenbosch, South Africa}
-{\emph{Junior Mobile, Backend and Language Developer} \\
-Developed a Java and J2ME code generator in Python for a scripting language interpreter on your phone.
-Also assisted on various other projects involving: PHP, SQL, XML-RPC and Network Security.}
-
-\entry
-{before 2010}
-{more}
+{2005 -- 2011}
+{Various Mobile Developer and Teaching Assistant Jobs}
 {South Africa}
-{\emph{Various Mobile Developer Jobs, Part Time Consultant, Teaching Assistant and Intern} \\
-\href{https://za.linkedin.com/in/schulzewalter}{Please see my LinkedIn Profile}
-}
+{\href{https://za.linkedin.com/in/schulzewalter}{Please see my LinkedIn Profile}}
 
 \end{entrylist}
-
-\newpage
 
 \section{education}
 
@@ -117,102 +95,26 @@ Also assisted on various other projects involving: PHP, SQL, XML-RPC and Network
 
 \entry
 {2014 ...}
-{PhD {\normalfont in Computer Science} (part time)}
+{PhD {\normalfont Informatics} (part time)}
 {Stellenbosch University}
-{At present I am actively working on a validation language for tree structures.
-This is all being open sourced at \href{https://github.com/katydid}{github.com/katydid}.
-I have also built a playground at \href{https://katydid.github.io/play}{katydid.github.io/play} to help with getting quick feedback from potential users.}
+{Currently busy working on a validation language for tree structures.}
 
 \entry
 {2007--2009}
-{MSc {\normalfont in Computer Science} (cum laude)}
+{MSc {\normalfont Computer Science} (cum laude)}
 {Stellenbosch University}
-{\href{http://superwillow.sourceforge.net/}{\emph{A Formal Language Theory Approach to Music Generation}} \\ We investigate the suitability of applying some of the probabilistic and automata theoretic ideas, that have been extremely successful in the areas of speech and natural language processing, to the area of musical style imitation. By using music written in a certain style as training data, parameters are calculated for (visible and hidden) Markov models (of mixed, higher or first order), in order to capture the musical style of the training data in terms of mathematical models. These models are then used to imitate two instrument music in the trained style.}
-
-\end{entrylist}
-
-\begin{entrylist}
+{\href{http://superwillow.sourceforge.net/}{\emph{A Formal Language Theory Approach to Music Generation}} \\ Generated music with Mixed order Hidden Markov models.}
 
 \entry
-{2006}
-{BSc Honours {\normalfont in Computer Science}}
+{2003 -- 2006}
+{BSc and BSc Honours {\normalfont Computer Science}}
 {Stellenbosch University}
-{Year project (passed with distinction): A bridge type card game which is played on mobile phones against each other. This included the implementation of a J2ME Client, Java Server, Database and Artificial Intelligent Players.
-Included courses on: Advanced Algorithms and Data Structures, Pattern Recognition, Artificial Intelligence, Simulation, Applied Automata Theory, Embedded Systems Programming and Concurrent Programming.}
-
-\entry
-{2003 -- 2005}
-{Bachelor {\normalfont of Computer Science}}
-{Stellenbosch University}
-{Included courses on: Operating Systems, Low Level, Cryptography, Networks, Coding Theory, System Design, Algorithms and Data Structures, Databases and Formal Language Theory.}
-
-\entry
-{2011 -- 2016}
-{Various Online Certificates}
-{Coursera and Edx}
-{\href{https://github.com/awalterschulze/waltercv}{Please see my CV repository}}
-
-\end{entrylist}
-
-\section{publications}
-
-\begin{entrylist}
-
-\entry
-{2010}
-{\href{http://doi.ieeecomputersociety.org/10.1109/MMUL.2010.44}{Music Generation with Mixed and Higher Order Hidden Markov Models}}
-{IEEE Multimedia}
-{Walter Schulze and Prof Brink van der Merwe}
-
-\end{entrylist}
-
-\newpage
-
-\section{awards}
-
-\begin{entrylist}
-
-\entry
-{2013}
-{Developed and Lead Intern Program}
-{Vastech}
-{We started with about 2 interns per year. I developed and lead the intern program up to the point where we now take up to 17 interns per year.  I was given one of the three awards Vastech gives out every year.}
-
-\end{entrylist}
-
-\section{open source projects}
-
-\begin{entrylist}
-
-\entry
-{2015}
-{\href{https://github.com/katydid/katydid}{Katydid}}
-{Haskell, Go, Serialization Formats, PhD}
-{Validation Language for Deeply Nested Structures}
-
-\entry
-{2017}
-{\href{https://github.com/awalterschulze/goderive}{Goderive}}
-{Go, Code Generation, Functional Programming}
-{Derives mundane golang functions that you do not want to maintain and keeps them up to date}
-
-\entry
-{2012}
-{\href{https://github.com/awalterschulze/gographviz}{GoGraphviz}}
-{Go, Graphviz, Parser Generator}
-{Go Parser for Graphviz's Dot Format}
-
-\entry
-{2013}
-{\href{https://github.com/gogo/protobuf}{gogoprotobuf}}
-{Go, Protocol Buffers, 1700+ Stars}
-{Protocol Buffers for Go with Gadgets}
+{}
 
 \end{entrylist}
 
 \section{interests}
 
-\textbf{professional:} Automata, Parsers, Programming Language Design, Category Theory \\
-\textbf{personal:} Guitar, Music Production, Music Technology
+Programming Language Design, Guitar and Music Production, Stand-up Comedy
 
 \end{document}
