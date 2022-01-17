@@ -21,35 +21,49 @@
 
 \documentclass[print]{friggeri-cv-a4} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 
+\usepackage{fontawesome} % \faGithub \faLinkedinSquare
+
 \begin{document}
 
 \header{walter}{schulze}{%
-\href{mailto:awalterschulze@gmail.com}{awalterschulze@gmail.com}%
+\faInbox \ \href{mailto:awalterschulze@gmail.com}{awalterschulze@gmail.com}%
 \ |\ %
-\href{https://awalterschulze.github.io}{github.com/awalterschulze}%
+\faGithub \ \href{https://awalterschulze.github.io}{github.com/awalterschulze}%
 \ |\ %
-\href{https://www.linkedin.com/in/schulzewalter/}{linkedin.com/in/schulzewalter/}%
+\faLinkedinSquare \ \href{https://www.linkedin.com/in/schulzewalter/}{linkedin.com/in/schulzewalter/}%
 } % Your name and current job title/field
 
 \begin{aside} % In the aside, each new line forces a line break
 \section{location}
 London, UK
 \section{programming}
-\href{https://coq.inria.fr/}{Coq}, Golang, Haskell, Elm, Erlang, Git, Latex
+\href{https://coq.inria.fr/}{Coq}, Golang, Haskell, Elm, Erlang, Latex
 \section{open source}
-\href{https://github.com/katydid/katydid}{Katydid}: Validation Language for Deeply Nested Structures
+\href{https://github.com/katydid/katydid}{Katydid}:
+Validation Language for Deeply Nested Structures
 ~
-\href{https://github.com/awalterschulze/goderive}{Goderive} $\star$950: Derives Go functions
+\href{https://github.com/awalterschulze/goderive}{Goderive} \faStar 950
+Derives Go functions
 ~
-\href{https://github.com/awalterschulze/gographviz}{GoGraphviz} $\star$460: Go Parser for Graphviz
+\href{https://github.com/awalterschulze/gographviz}{GoGraphviz} \faStar 460
+Parser for Graphviz
 ~
-\href{https://github.com/gogo/protobuf}{gogoprotobuf} $\star$5000: Protobufs for Go 
+\href{https://github.com/gogo/protobuf}{gogoprotobuf} \faStar 5000
+Protobufs for Go 
 ~
-\href{https://github.com/WhatsApp/erlfmt}{erlfmt} $\star$320: Formatter for Erlang
+\href{https://github.com/WhatsApp/erlfmt}{erlfmt} \faStar 320 
+Formatter for Erlang
 \section{publications}
 IEEE Multimedia: \href{http://doi.ieeecomputersociety.org/10.1109/MMUL.2010.44}{Music Generation with Mixed and Higher Order Hidden Markov Models}
+\section{talks}
+\href{https://www.youtube.com/playlist?list=PLYwF9EIrl42S9ldgii7kfBEIHPle7PqMk}{\faYoutubePlay Ragalur Expressions} 
+\href{https://www.youtube.com/watch?v=qFYByoGFIUE}{\faYoutubePlay Goderive}
+\href{https://slides.com/walterschulze}{slides.com/walterschulze}
 \section{interests}
-Programming Language Design, Guitar and Music Production, Stand-up Comedy
+Proof Assistants
+Guitar
+Music Production
+Stand-up Comedy
 \end{aside}
 
 \section{employment}
@@ -57,7 +71,7 @@ Programming Language Design, Guitar and Music Production, Stand-up Comedy
 
 \entry
 {2021 ...}
-{Meta}
+{\infty\ Meta}
 {London, UK}
 {\emph{Frontend UI Engineer}: React, Hack \\
 Developed device managed UI for \href{https://portal.facebook.com/business/}{Portals}. Conducted behavioural interviews.
@@ -65,7 +79,7 @@ Developed device managed UI for \href{https://portal.facebook.com/business/}{Por
 
 \entry
 {2020 -- 2021}
-{WhatsApp}
+{\faWhatsapp\ WhatsApp}
 {London, UK}
 {\emph{Erlang Types and Tooling Engineer}: Erlang \\
 Projects included: \href{https://github.com/whatsapp/erlfmt}{erlfmt}: A code formatter for erlang, a code generator for concurrency and VSCode integration. Conducted coding interviews.
@@ -73,16 +87,16 @@ Projects included: \href{https://github.com/whatsapp/erlfmt}{erlfmt}: A code for
 
 \entry
 {2018 -- 2020}
-{Facebook}
+{\faFacebookSquare\ Facebook}
 {London, UK}
 {\emph{Senior Software Engineer}: Haskell, Python, Rust \\
-Extended security eDSL in Haskell, which significantly reduced false positives. Integrated \href{https://hackage.haskell.org/package/QuickCheck}{QuickCheck} into \href{https://github.com/facebook/Haxl}{Haxl}.
+Extended security eDSL in Haskell, which significantly reduced false positives. Integrated QuickCheck into Haxl.
 Maintained the company's test runner. Designed foundation for new test runner using a Monad with Monoid constrained elements to create a batched stream for concurrent test running.  Mentored students.
 }
 
 \entry
 {2016 -- 2018}
-{eBay Classifieds Group}
+{\faShoppingBasket\ eBay Classifieds Group}
 {Amsterdam, The Netherlands}
 {\emph{MTS1 Software Engineer}: Elm, Go, Docker, Filebeat, Cassandra, Kafka, Consul, Nomad, Grafana, Kibana and Jenkins \\
 Created a translating reverse proxy that shows eBay ads on classifieds sites, serving 2000 requests per second. Added an A/B testing framework, role based login using LDAP and a new Frontend using Elm. Interviewed over 50 candidates, provided support for five local markets and served on the global Architecture team.
@@ -90,7 +104,7 @@ Created a translating reverse proxy that shows eBay ads on classifieds sites, se
 
 \entry
 {2011 -- 2016}
-{Vastech}
+{\faHeadphones\ Vastech}
 {Stellenbosch, South Africa}
 {\emph{Query Language Developer}: Go, Protobufs, Javascript \\
 I was part of a team that developed a distributed database from scratch, for fast writing of time series data. I was responsible for the \href{https://github.com/katydid/katydid}{query language}, matching algorithm, metadata serialization, index configuration, update method for our write only database and the UI. I also initiated the company's open source policy and founded and lead the intern program.
@@ -98,10 +112,11 @@ I was part of a team that developed a distributed database from scratch, for fas
 
 \entry
 {2006 -- 2011}
-{Various companies}
+{\faMobile\ Various companies}
 {South Africa}
 {\emph{Mobile Developer}: Java \\
-\href{https://za.linkedin.com/in/schulzewalter}{See my LinkedIn Profile}}
+\href{https://www.linkedin.com/in/schulzewalter/}{\faLinkedinSquare\ linkedin.com/in/schulzewalter/}
+}
 
 \end{entrylist}
 
@@ -111,19 +126,19 @@ I was part of a team that developed a distributed database from scratch, for fas
 
 \entry
 {2014 ...}
-{PhD {\normalfont Informatics} (part time): {\normalfont Coq, Haskell, Go}}
+{\faIndent\ PhD {\normalfont Informatics} (part time): {\normalfont Coq, Haskell, Go}}
 {Stellenbosch University}
-{Currently busy working on a validation language for tree structures.}
+{Currently busy working on a validation language for tree structures and proving it's correctness in Coq.}
 
 \entry
 {2007--2009}
-{MSc {\normalfont Computer Science} (cum laude): {\normalfont Python, XSLT}}
+{\faMusic\ MSc {\normalfont Computer Science} (cum laude): {\normalfont Python}}
 {Stellenbosch University}
 {\href{http://superwillow.sourceforge.net/}{\emph{A Formal Language Theory Approach to Music Generation}} \\ Generated music with Mixed order Hidden Markov models.}
 
 \entry
 {2003 -- 2006}
-{BSc and BSc Honours {\normalfont Computer Science: C, Java}}
+{\faGraduationCap\ BSc Honours {\normalfont Computer Science: C, Java}}
 {Stellenbosch University}
 {}
 
